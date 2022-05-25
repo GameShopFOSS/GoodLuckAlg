@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="Includes :: main">
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Main Page - This is where interface will be displayed
+<div id ="buttonContainer">
+<button id="mainButton">Main</button>
+<button id="detailsButton">Details</button>
+</div>
+<div class="mainTab">
+<div id="counter">
+0
+</div>
+<div id="tickerData">
+_
+</div>
+<div id="currentPrice">
+_
+</div>
+<div id="priceDataList">
+_
+</div>
+<div id="algStatus">
+_
+</div>
+<div>
+ <!-- th:object = modelattribute -->
+<button id="startAlgorithm">Start Algorithm</button>
+<span><button id="rallyAlgorithm">Rally Algorithm</button></span>
+<span><button id="stopAlgorithm">Stop Algorithm</button></span>
+</div>
+</div>
+<div class="detailsTab">
+<div id="threadList">
+_
+</div>
+</div>
+</body>
+</html>
